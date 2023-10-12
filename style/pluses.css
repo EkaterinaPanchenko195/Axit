@@ -1,0 +1,25 @@
+.block-list {
+  list-style: none;
+  display: flex;
+}
+
+.block-list-item {
+  margin-right: 30px;
+  width: 367px;
+}
+
+.block-list-item:last-child {
+  margin-right: 0;
+}
+
+.block-list-item__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  margin: 40px 0 45px 0;
+}
+
+.block-list-item__info {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}

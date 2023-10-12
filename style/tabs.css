@@ -1,79 +1,8 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-/* Секция №2 */
-
-.main-content {
-  width: 100%;
-}
-
-.container {
-  margin: 0 auto;
-  padding: 50px 0;
-  text-align: center;
-  width: 1170px;
-}
-
-.container-header__title {
-  font-family: "Raleway", sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-  margin-bottom: 50px;
-}
-
-.container-header__line {
-  border-bottom: 1px solid #ec7979;
-  margin: 0 auto 40px;
-  width: 170px;
-}
-
-.container-header__description {
-  color: #86878b;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 70px;
-}
-
-.block-list {
-  list-style: none;
-}
-
-.block-list-item {
-  display: inline-block;
-  margin-right: 30px;
-  width: 367px;
-}
-
-.block-list-item:last-child {
-  margin-right: 0;
-}
-
-.block-list-item__title {
-  font-family: "Open Sans", sans-serif;
-  font-size: 24px;
-  margin: 40px 0 45px 0;
-}
-
-.block-list-item__info {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-}
-
-/* Секция №1 */
-
 .tab-list {
   font-size: 0;
   list-style: none;
   text-align: left;
-}
-
-.tab-item {
-  display: inline-block;
+  display: flex;
 }
 
 .tab-item__button {
@@ -98,11 +27,11 @@
 .tab-content {
   border: 1px solid #c6cbcd;
   font-size: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .tab-content-block {
-  display: inline-block;
-  vertical-align: top;
   padding: 0px 50px 0px 100px;
   text-align: left;
   width: calc(100% - 500px);
@@ -131,6 +60,7 @@
   background-color: #ec7979;
   border: none;
   color: #fff;
+  cursor: pointer;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   height: 58px;
@@ -140,14 +70,12 @@
 
 .tab-content__button:hover {
   background-color: #c6cbcd;
-
 }
 
 .tab-content-img {
-  background-image: url(./images/statue-of-liberty.png);
+  background-image: url(../images/statue-of-liberty.png);
   background-size: cover;
   background-position: center;
-  display: inline-block;
   height: 470px;
   width: 500px;
 }

@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  width: 1170px;
+}
+
+.container-header__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.container-header__line {
+  border-bottom: 1px solid #ec7979;
+  margin: 0 auto 40px;
+  width: 170px;
+}
+
+.container-header__description {
+  color: #86878b;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}

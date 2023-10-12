@@ -1,0 +1,65 @@
+.container--gray {
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.container--wide {
+  padding-top: 100px;
+  width: 100%;
+}
+
+.price-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.price-item {
+  cursor: pointer;
+  transition: 0.2s;
+  width: 370px;
+}
+
+.price-item:hover {
+  border: 2px solid rgba(245, 245, 245, 1);
+  box-shadow: 0px 4px 10px 0px rgba(51, 51, 51, 0.2);
+  transform: translateY(-20px);
+}
+
+.price-item__title {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(51, 51, 51, 1);
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+.price-item__price {
+  background-color: rgba(51, 51, 51, 1);
+  border-bottom: 2px solid rgba(245, 245, 245, 1);
+  border-top: 2px solid rgba(245, 245, 245, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  padding: 30px 0;
+}
+
+.price-item__duration {
+  background-color: rgba(51, 51, 51, 1);
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.price-item__info {
+  background-color: #fff;
+  border-bottom: 2px solid rgba(245, 245, 245, 1);
+  color: rgba(134, 135, 139, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 0;
+  text-transform: capitalize;
+}
