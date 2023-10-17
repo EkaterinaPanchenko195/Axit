@@ -69,7 +69,9 @@
 }
 
 .tab-content__button:hover {
-  background-color: #c6cbcd;
+  background-color: rgba(171, 73, 73, 1);
+  border: 2px solid rgba(171, 73, 73, 1);
+  transition: 0.3s;
 }
 
 .tab-content-img {
