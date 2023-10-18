@@ -33,7 +33,7 @@
   text-align: left;
 }
 
-.person__wrapper {
+.person-data {
   padding-top: 10px;
 }
 
@@ -41,13 +41,13 @@
   margin-right: 30px;
 }
 
-.person__fullname {
+.person-data__fullname {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   margin-bottom: 15px;
 }
 
-.person__job {
+.person-data__job {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400;

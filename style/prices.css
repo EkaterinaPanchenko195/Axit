@@ -16,7 +16,7 @@
   width: 370px;
 }
 
-.price-item:hover {
+.price-item_hover:hover {
   border: 2px solid rgba(245, 245, 245, 1);
   box-shadow: 0px 4px 10px 0px rgba(51, 51, 51, 0.2);
   margin-top: -20px;

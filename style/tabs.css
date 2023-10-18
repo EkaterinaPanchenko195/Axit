@@ -68,7 +68,7 @@
   width: 230px;
 }
 
-.tab-content__button:hover {
+.tab-content__button_hover:hover {
   background-color: rgba(171, 73, 73, 1);
   border: 2px solid rgba(171, 73, 73, 1);
   transition: 0.3s;
