@@ -1,0 +1,39 @@
+.media {
+  background-color: rgba(248, 239, 239, 1);
+  width: 100%;
+}
+
+.container_flex {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.media-info {
+  text-align: start;
+}
+
+.media-info__title {
+  color: rgba(51, 51, 51, 1);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.media-info__description {
+  color: rgba(134, 135, 139, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.media-list {
+  column-gap: 30px;
+  display: flex;
+}
+
+.media-list__link {
+  text-decoration: none;
+}

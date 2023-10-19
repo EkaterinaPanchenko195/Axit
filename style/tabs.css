@@ -18,12 +18,6 @@
   width: 203px;
 }
 
-.tab-item__button--active {
-  border: 1px solid #c6cbcd;
-  border-bottom: 1px solid #fff;
-  transform: translateY(1px);
-}
-
 .tab-content {
   border: 1px solid #c6cbcd;
   font-size: 0;
@@ -72,6 +66,12 @@
   background-color: rgba(171, 73, 73, 1);
   border: 2px solid rgba(171, 73, 73, 1);
   transition: 0.3s;
+}
+
+.tab-content__button_active:active {
+  box-shadow: 0px 0px 10px 0px rgba(171, 73, 73, 1) inset;
+  background-color: #ec7979;
+  color: #fff;
 }
 
 .tab-content-img {

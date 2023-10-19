@@ -1,0 +1,30 @@
+.footer {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 1);
+  padding: 30px 0 25px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-media {
+  align-items: center;
+  column-gap: 35px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.footer-media__link {
+  width: 53px;
+}
+
+.footer-media__img {
+  max-width: 100%;
+}
+
+.footer-info {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}

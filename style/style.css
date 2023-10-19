@@ -6,6 +6,7 @@
 
 .main-content {
   width: 100%;
+  padding-top: 80px;
 }
 
 .container {
@@ -39,4 +40,28 @@
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 70px;
+}
+
+.button-white {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 1);
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  height: 58px;
+  width: 370px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-white_hover:hover {
+  border: 2px solid rgba(236, 121, 121, 1);
+  color: rgba(236, 121, 121, 1);
+}
+
+.button-white_active:active {
+  border: 2px solid rgba(171, 73, 73, 1);
+  background-color: rgba(171, 73, 73, 1);
+  color: rgba(255, 255, 255, 1);
 }

@@ -1,0 +1,17 @@
+.container-design {
+  color: rgba(255, 255, 255, 1);
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+}
+
+.wrapper-fullback {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 150px 0 50px;
+}
+
+.container-header__line_white {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}

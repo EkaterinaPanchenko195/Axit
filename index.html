@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="icon" href="./images/Cooper-Dorwart.png" />
+    <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/tabs.css" />
     <link rel="stylesheet" href="./style/pluses.css" />
     <link rel="stylesheet" href="./style/prices.css" />
     <link rel="stylesheet" href="./style/reviews.css" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/media.css" />
+    <link rel="stylesheet" href="./style/design.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Raleway&display=swap"
       rel="stylesheet"
@@ -23,8 +28,84 @@
     <title>AXIT</title>
   </head>
   <body>
+    <header class="header">
+      <div class="container container_header">
+        <a class="logo" href="./index.html">
+          <img class="logo__img" src="./images/logo.svg" alt="logo" />
+        </a>
+        <nav class="nav">
+          <a class="nav__link" href="#features">Features</a>
+          <a class="nav__link" href="#about">About</a>
+          <a class="nav__link" href="#price">Pricing</a>
+          <a class="nav__link" href="#reviews">Reviews</a>
+          <a class="nav__link" href="">Contact</a>
+        </nav>
+      </div>
+    </header>
     <main class="main-content">
-      <section class="container">
+      <section class="media">
+        <div class="container container_flex">
+          <div class="media-info">
+            <h4 class="media-info__title">Social Media</h4>
+            <h5 class="media-info__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+              Aenean euismod bibendum laoreet.
+            </h5>
+          </div>
+          <div class="media-list">
+            <a class="media-list__link" href="">
+              <img
+                class="media-list__img"
+                src="./images/facebook_icon.svg"
+                alt="facebook_icon"
+              />
+            </a>
+            <a class="media-list__link" href="">
+              <img
+                class="media-list__img"
+                src="./images/twitter_icon.svg"
+                alt="twitter_icon"
+              />
+            </a>
+            <a class="media-list__link" href="">
+              <img
+                class="media-list__img"
+                src="./images/linkedin_icon.svg"
+                alt="linkedin_icon"
+              />
+            </a>
+            <a class="media-list__link" href="">
+              <img
+                class="media-list__img"
+                src="./images/pinterest_icon.svg"
+                alt="pinterest_icon"
+              />
+            </a>
+            <a class="media-list__link" href="">
+              <img
+                class="media-list__img"
+                src="./images/instagram_icon.svg"
+                alt="instagram_icon"
+              />
+            </a>
+            <a class="media-list__link" href="">
+              <img
+                class="media-list__img"
+                src="./images/github_icon.svg"
+                alt="github_icon"
+              />
+            </a>
+            <a class="media-list__link" href="">
+              <img
+                class="media-list__img"
+                src="./images/rss_icon.svg"
+                alt="rss_icon"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="features" class="container">
         <ul class="tab-list">
           <li class="tab-item">
             <button class="tab-item__button tab-item__button--active">
@@ -54,14 +135,16 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               euismod bibendum laoreet.
             </p>
-            <button class="tab-content__button tab-content__button_hover">
+            <button
+              class="tab-content__button tab-content__button_hover tab-content__button_active"
+            >
               Download
             </button>
           </div>
           <div class="tab-content-img"></div>
         </div>
       </section>
-      <section class="container">
+      <section id="about" class="container">
         <div class="container-header">
           <h2 class="container-header__title">Why this is awesome</h2>
           <div class="container-header__line"></div>
@@ -73,7 +156,7 @@
           <li class="block-list-item">
             <img
               class="block-list-item__img"
-              src="./images/lamp.png"
+              src="./images/lamp.svg"
               alt="lamp"
             />
             <h4 class="block-list-item__title">Thoughtful Design</h4>
@@ -86,8 +169,8 @@
           <li class="block-list-item">
             <img
               class="block-list-item__img"
-              src="./images/lamp.png"
-              alt="lamp"
+              src="./images/keyboard.svg"
+              alt="keyboard"
             />
             <h4 class="block-list-item__title">Thoughtful Design</h4>
             <h5 class="block-list-item__info">
@@ -99,8 +182,8 @@
           <li class="block-list-item">
             <img
               class="block-list-item__img"
-              src="./images/lamp.png"
-              alt="lamp"
+              src="./images/lightning.svg"
+              alt="lightning"
             />
             <h4 class="block-list-item__title">Thoughtful Design</h4>
             <h5 class="block-list-item__info">
@@ -111,7 +194,7 @@
           </li>
         </ul>
       </section>
-      <section class="container container_gray container_wide">
+      <section id="price" class="container container_gray container_wide">
         <div class="container-header">
           <h2 class="container-header__title">pricing options</h2>
           <div class="container-header__line"></div>
@@ -155,7 +238,7 @@
           </div>
         </div>
       </section>
-      <section class="container container_wide">
+      <section id="reviews" class="container container_wide">
         <div class="container-header">
           <h2 class="container-header__title">what our customers are saying</h2>
           <div class="container-header__line"></div>
@@ -220,6 +303,77 @@
           </div>
         </div>
       </section>
+      <section class="container-design">
+        <div class="wrapper-fullback">
+          <div class="container-header">
+            <h2 class="container-header__title">stylish axure design</h2>
+            <div
+              class="container-header__line container-header__line_white"
+            ></div>
+            <h3 class="container-header__description">
+              Use the sections you need, remove the ones you don't. Create
+              gorgeous prototypes faster than ever!
+            </h3>
+          </div>
+          <button class="button-white button-white_hover button-white_active">
+            Download
+          </button>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="footer-media">
+        <a class="footer-media__link" href="">
+          <img
+            class="footer-media__img"
+            src="./images/facebook_icon.svg"
+            alt="facebook_icon"
+          />
+        </a>
+        <a class="footer-media__link" href="">
+          <img
+            class="footer-media__img"
+            src="./images/twitter_icon.svg"
+            alt="twitter_icon"
+          />
+        </a>
+        <a class="footer-media__link" href="">
+          <img
+            class="footer-media__img"
+            src="./images/linkedin_icon.svg"
+            alt="linkedin_icon"
+          />
+        </a>
+        <a class="footer-media__link" href="">
+          <img
+            class="footer-media__img"
+            src="./images/pinterest_icon.svg"
+            alt="pinterest_icon"
+          />
+        </a>
+        <a class="footer-media__link" href="">
+          <img
+            class="footer-media__img"
+            src="./images/instagram_icon.svg"
+            alt="instagram_icon"
+          />
+        </a>
+        <a class="footer-media__link" href="">
+          <img
+            class="footer-media__img"
+            src="./images/github_icon.svg"
+            alt="github_icon"
+          />
+        </a>
+        <a class="footer-media__link" href="">
+          <img
+            class="footer-media__img"
+            src="./images/rss_icon.svg"
+            alt="rss_icon"
+          />
+        </a>
+      </div>
+      <p class="footer-info">© 2015 Axure Themes</p>
+    </footer>
   </body>
 </html>
