@@ -1,0 +1,59 @@
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.contact-block__input {
+  border: none;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  color: rgb(137, 137, 137);
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  height: 38px;
+  margin-bottom: 50px;
+  padding-bottom: 19px;
+  outline: none;
+  width: 571px;
+}
+
+.contact-block__input:last-of-type {
+  margin-bottom: 0;
+}
+
+.contact-block__input_placeholder::placeholder {
+  color: rgba(189, 189, 189, 1);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.contact-block__message {
+  border: none;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  color: rgb(137, 137, 137);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  height: 214px;
+  outline: none;
+  resize: none;
+  width: 569px;
+}
+
+.contact-block__message_placeholder::placeholder {
+  color: rgba(189, 189, 189, 1);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.contact-form__button {
+  background-color: rgba(236, 121, 121, 1);
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  height: 58px;
+  width: 370px;
+}

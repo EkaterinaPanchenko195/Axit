@@ -18,6 +18,15 @@
   width: 203px;
 }
 
+.tab-item__button_active {
+  border: 1px solid rgba(198, 203, 205, 1);
+  border-bottom: none;
+  margin-bottom: -2px;
+  border-radius: 5px, 5px, 0px, 0px;
+  position: relative;
+  top: 1px;
+}
+
 .tab-content {
   border: 1px solid #c6cbcd;
   font-size: 0;
@@ -60,18 +69,6 @@
   height: 58px;
   margin-bottom: 50px;
   width: 230px;
-}
-
-.tab-content__button_hover:hover {
-  background-color: rgba(171, 73, 73, 1);
-  border: 2px solid rgba(171, 73, 73, 1);
-  transition: 0.3s;
-}
-
-.tab-content__button_active:active {
-  box-shadow: 0px 0px 10px 0px rgba(171, 73, 73, 1) inset;
-  background-color: #ec7979;
-  color: #fff;
 }
 
 .tab-content-img {

@@ -6,7 +6,7 @@
 
 .main-content {
   width: 100%;
-  padding-top: 80px;
+  padding-top: 79px;
 }
 
 .container {
@@ -64,4 +64,16 @@
   border: 2px solid rgba(171, 73, 73, 1);
   background-color: rgba(171, 73, 73, 1);
   color: rgba(255, 255, 255, 1);
+}
+
+.tab-content__button_hover:hover {
+  background-color: rgba(171, 73, 73, 1);
+  border: 2px solid rgba(171, 73, 73, 1);
+  transition: 0.3s;
+}
+
+.tab-content__button_active:active {
+  box-shadow: 0px 0px 10px 0px rgba(171, 73, 73, 1) inset;
+  background-color: #ec7979;
+  color: #fff;
 }

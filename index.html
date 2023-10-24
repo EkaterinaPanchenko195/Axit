@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./style/media.css" />
     <link rel="stylesheet" href="./style/design.css" />
     <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./style/banner.css" />
+    <link rel="stylesheet" href="./style/contact.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Raleway&display=swap"
       rel="stylesheet"
@@ -38,11 +40,72 @@
           <a class="nav__link" href="#about">About</a>
           <a class="nav__link" href="#price">Pricing</a>
           <a class="nav__link" href="#reviews">Reviews</a>
-          <a class="nav__link" href="">Contact</a>
+          <a class="nav__link" href="#contact">Contact</a>
         </nav>
       </div>
     </header>
     <main class="main-content">
+      <section class="banner banner_fullback">
+        <div class="container container_position">
+          <div class="banner-block">
+            <img
+              class="banner-block__img"
+              src="./images/logo-big.svg"
+              alt="logo"
+            />
+            <div class="container-header container-header_text-start">
+              <h2 class="container-header__title">
+                MODERN AXURE TEMPLATE <br />FOR BEAUTIFUL <br />
+                PROTOTYPES
+              </h2>
+              <div
+                class="container-header__line container-header__line_white container-header__line_start"
+              ></div>
+              <h3
+                class="container-header__description container-header__description_banner"
+              >
+                Lorem ipsum dolor sit amet,<br />
+                consectetur adipiscing elit.
+              </h3>
+            </div>
+            <button
+              class="wrapper-fullback__button-white wrapper-fullback__button-white_hover wrapper-fullback__button-white_active"
+            >
+              Download
+            </button>
+          </div>
+          <div class="banner-block">
+            <form class="banner-form">
+              <h4 class="banner-block__title">
+                Try Your
+                <span class="banner-block__title_red" class="">FREE</span> Trial
+                Today
+              </h4>
+              <input
+                class="banner-form__input banner-form__input_placeholder"
+                type="text"
+                placeholder="Name"
+              />
+              <input
+                class="banner-form__input banner-form__input_placeholder"
+                type="email"
+                placeholder="Email"
+              />
+              <input
+                class="banner-form__input banner-form__input_placeholder banner-form__input_last-child"
+                type="password"
+                placeholder="Password"
+              />
+              <button
+                type="button"
+                class="banner-form__button tab-content__button_hover tab-content__button_active"
+              >
+                Get Started
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
       <section class="media">
         <div class="container container_flex">
           <div class="media-info">
@@ -105,10 +168,10 @@
           </div>
         </div>
       </section>
-      <section id="features" class="container">
+      <section id="features" class="container container_wide">
         <ul class="tab-list">
           <li class="tab-item">
-            <button class="tab-item__button tab-item__button--active">
+            <button class="tab-item__button tab-item__button_active">
               TAB 1
             </button>
           </li>
@@ -321,6 +384,48 @@
             Download
           </button>
         </div>
+      </section>
+      <section id="contact" class="container">
+        <div class="container-header">
+          <h2 class="container-header__title">contact us</h2>
+          <div class="container-header__line"></div>
+          <h3 class="container-header__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h3>
+        </div>
+        <form class="contact-form">
+          <div class="contact-wrapper">
+            <div class="contact-block">
+              <input
+                class="contact-block__input contact-block__input_placeholder"
+                type="text"
+                placeholder="Name"
+              />
+              <input
+                class="contact-block__input contact-block__input_placeholder"
+                type="email"
+                placeholder="Email"
+              />
+              <input
+                class="contact-block__input contact-block__input_placeholder"
+                type="password"
+                placeholder="Password"
+              />
+            </div>
+            <div class="contact-block">
+              <textarea
+                class="contact-block__message contact-block__message_placeholder"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </div>
+          <button
+            class="contact-form__button tab-content__button_active tab-content__button_hover"
+            type="button"
+          >
+            Send Message
+          </button>
+        </form>
       </section>
     </main>
     <footer class="footer">
