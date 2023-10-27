@@ -60,3 +60,18 @@
   padding: 10px 0;
   text-transform: capitalize;
 }
+
+@media (max-width: 1220px) {
+  .price-list {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 715px) {
+  .price-list {
+    flex-wrap: wrap;
+  }
+  .price-item {
+    margin-bottom: 30px;
+  }
+}

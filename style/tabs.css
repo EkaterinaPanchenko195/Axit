@@ -51,7 +51,7 @@
 .tab-content__description {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  margin-bottom: 38px;
+  margin-bottom: 27px;
   text-align: left;
 }
 
@@ -68,7 +68,7 @@
   font-size: 18px;
   height: 58px;
   margin-bottom: 50px;
-  width: 230px;
+  width: 270px;
 }
 
 .tab-content-img {
@@ -77,4 +77,48 @@
   background-position: center;
   height: 470px;
   width: 500px;
+}
+
+@media (max-width: 1220px) {
+  .tab-content__title {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .tab-content__description {
+    font-size: 14px;
+    margin-bottom: 38px;
+  }
+  .tab-content__button {
+    width: 230px;
+  }
+  .tab-content-img {
+    height: 385px;
+  }
+  .tab-content {
+    height: 385px;
+  }
+  .tab-content-block {
+    padding: 0px 20px 0px 50px;
+  }
+}
+
+@media (max-width: 975px) {
+  .tab-content-img {
+    display: none;
+  }
+  .tab-content-block {
+    width: 80%;
+  }
+  .tab-item {
+    width: 30%;
+  }
+  .tab-item__button {
+    width: 100%;
+  }
+  .tab-content {
+    height: 100%;
+  }
+  .tab-content__button {
+    width: 200px;
+  }
 }

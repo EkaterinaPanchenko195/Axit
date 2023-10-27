@@ -1,6 +1,6 @@
 .block-list {
-  list-style: none;
   display: flex;
+  list-style: none;
 }
 
 .block-list-item {
@@ -22,4 +22,26 @@
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+
+@media (max-width: 1220px) {
+  .block-list-item__title {
+    font-size: 18px;
+  }
+  .block-list-item__info {
+    font-size: 14px;
+  }
+  .block-list-item__img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 715px) {
+  .block-list-item {
+    margin-right: 0;
+  }
+  .block-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

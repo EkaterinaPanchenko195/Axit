@@ -57,3 +57,32 @@
   height: 58px;
   width: 370px;
 }
+
+@media (max-width: 1220px) {
+  .contact-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contact-form__button {
+    width: 320px;
+  }
+  .contact-block__message {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 630px) {
+  .contact-block {
+    width: 100%;
+  }
+  .contact-block__input {
+    width: 100%;
+  }
+  .contact-block__message {
+    display: block;
+    width: 100%;
+  }
+  .contact-form__button {
+    width: 100%;
+  }
+}

@@ -13,6 +13,7 @@
   font-weight: 400;
   margin-bottom: 65px;
   padding: 40px 10px;
+  position: relative;
 }
 
 .review__comment::after {
@@ -21,9 +22,9 @@
   border-top: 20px solid rgba(226, 226, 226, 1);
   content: "";
   height: 0;
-  position: relative;
-  right: 145px;
-  top: 80px;
+  position: absolute;
+  left: 70px;
+  top: 100%;
   width: 0;
 }
 
@@ -51,4 +52,45 @@
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+
+.review-nav {
+  display: none;
+}
+
+@media (max-width: 1220px) {
+  .review__comment {
+    font-size: 14px;
+  }
+  .person-data__fullname {
+    font-size: 18px;
+  }
+  .person-data__job {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 715px) {
+  .review:first-of-type,
+  .review:last-of-type {
+    display: none;
+  }
+  .review {
+    width: 70%;
+  }
+  .review-nav {
+    column-gap: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .review-nav__item {
+    border: 1px solid rgba(134, 135, 139, 1);
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+  }
+  .review-nav__item_active {
+    background-color: rgba(134, 135, 139, 1);
+  }
 }

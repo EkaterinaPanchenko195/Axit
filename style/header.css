@@ -35,3 +35,25 @@
   padding: 30px;
   text-decoration: none;
 }
+
+.header-burger {
+  background-image: url(../images/Vector.svg);
+  background-size: cover;
+  background-position: center;
+  display: none;
+}
+
+@media (max-width: 715px) {
+  .nav {
+    display: none;
+  }
+  .header-burger {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    height: 18px;
+    margin-right: 35px;
+    width: 24px;
+  }
+}

@@ -28,3 +28,9 @@
   font-weight: 400;
   text-decoration: none;
 }
+
+@media (max-width: 715px) {
+  .footer-info {
+    font-size: 14px;
+  }
+}
